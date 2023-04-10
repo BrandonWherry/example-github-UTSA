@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools.build_meta"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "py_project"
+version = "1.0.0"
+authors = [
+    { name="Some Author", email="some.author@utsa.edu" },
+]
+description = "A simple Python Package."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS independent"
+]
+dependencies = [
+    "torch>=2.0.0",
+]
